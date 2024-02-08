@@ -8,7 +8,7 @@
           <h1 class="text-container">
             <span class="primary-txt">Création de sites</span> internet,<br />
             &amp; conseils en stratégie
-            <span class="primary-txt">digitale</span>.<br />
+            <span class="primary-txt">digitale</span><br />
           </h1>
         </div>
       </div>
