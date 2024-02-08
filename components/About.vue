@@ -21,7 +21,7 @@
           class="parallax-about__one"
           data-parallax="20"
           speed="0.2"
-          src="../assets/icons/38.svg"
+          src="../public/assets/icons/38.svg"
         />
         <img
           class="parallax-about__two"
