@@ -2,6 +2,7 @@
   <form
     name="Website Contact Form"
     method="post"
+    action="success"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
     hidden
