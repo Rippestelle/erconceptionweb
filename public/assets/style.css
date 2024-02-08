@@ -1,0 +1,239 @@
+/*
+Theme Name: Inspiro-child
+Description: Theme enfant du thème Inspiro pour le site Mau-Fit Coaching
+Author: Estelle Rippe
+Template: inspiro 
+Version: 0.1.0
+*/
+
+/* COLORS */
+
+.primary {
+    color: #21c7a9;
+}
+
+.secondary {
+    color: #ffba86;
+}
+
+.tertiary {
+    color: #f6635c;
+}
+
+.white {
+    color: #fff;
+}
+
+.mb-0 p {
+    margin-bottom: 0px !important;
+}
+
+.bullet-point .elementor-icon-box-title {
+    margin-top: 0px !important;
+}
+
+.bullet-point .elementor-icon-box-title {
+    margin-top: 0px !important;
+}
+
+.bullet-point .elementor-icon {
+    margin-top: 10px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(246, 99, 92, 1) 0%, rgba(255, 186, 134, 1) 40%, rgba(18, 224, 187, 1) 100%);
+}
+
+.nf-form-content input:not(.submit-btn) {
+    border: 2px solid #ffba86 !important;
+    background: #fff !important;
+}
+
+.nf-form-fields-required {
+    display: none !important;
+}
+
+.nf-form-content textarea.ninja-forms-field {
+    border: 2px solid #ffba86 !important;
+    background: #fff !important;
+}
+
+.contact-iconbox .elementor-icon-box-content {
+    flex-grow: inherit !important;
+}
+
+.contact-iconbox .elementor-icon-box-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    background: var(--e-global-color-primary) !important;
+    border: 2px solid var(--e-global-color-primary) !important;
+}
+
+.submit-btn:hover {
+    background: #fff !important;
+    color: var(--e-global-color-primary) !important;
+}
+
+/*.submit-btn:hover {
+	color: #fff!important;
+  background-color:#6bc3ef!important;
+  background-image:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,.7) 100%)!important;
+  background-repeat:no-repeat;
+  background-size: 200% 100%; 
+  transition:background-size 1s, background-color 1s;
+}*/
+
+.timeline-card .elementor-widget-wrap {
+    width: 510px;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIXED PASTILLE */
+
+.pastille {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 170px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.pastille_text {
+    display: none;
+}
+
+.pastille h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.pastille2 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 320px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.socicon-facebook {
+    color: #fff !important;
+}
+
+#block-8 {
+    margin-bottom: 0 !important;
+}
+
+.header-logo-wrapper .custom-logo {
+    width: 110px !important;
+    height: 110px !important;
+    object-fit: cover;
+}
+
+.img-link a {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .pastille img,
+    .pastille2 img,
+    .timeline::before {
+        display: none;
+    }
+
+    .pastille {
+        background: #0bb4aa;
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: 95px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pastille2 {
+        background: #ffba86;
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: 105px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pastille_text {
+        display: block !important;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .has-header-image .navbar,
+    .has-header-video .navbar {
+        background-color: rgba(0, 0, 0, 0.9) !important;
+        padding: 12px !important;
+    }
+
+    .elementor-icon-box-wrapper {
+        align-items: baseline;
+    }
+}
+
+.copyright,
+.copyright span {
+    display: flex;
+    justify-content: center;
+}
+
+.pastille_text {
+    display: none;
+}
+
+.nf-response-msg {
+    color: #0bb4aa !important;
+    display: flex;
+    background: #000000b3;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.img-mau img {
+    object-position: 0px -50px !important;
+}
+
+.submit-btn-container {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}

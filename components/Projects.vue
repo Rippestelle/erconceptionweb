@@ -1,0 +1,132 @@
+<script setup lang="ts"></script>
+
+<template>
+  <section class="container" id="projects">
+    <h2>Projets</h2>
+    <p>
+      En dehors de nombreux projets réalisés en entreprise (sites vitrines,
+      sites institutionnels, applications métier ou encore landing-page), voici
+      mes premiers projets réalisés en freelance.
+    </p>
+    <div class="projects">
+      <a
+        href="https://maufitcoaching.fr/"
+        class="projects__card"
+        target="_blank"
+      >
+        <img src="../assets/icons/34.svg" class="border top" />
+        <div class="projects__card__top">
+          <img src="../assets/img/maufit-coaching.png" />
+        </div>
+        <div class="projects__card__bottom">
+          <p>
+            Mau-Fit Coaching est une micro-entreprise de coaching à domicile. La
+            cliente m'a contacté fin 2023 pour une création de site WordPress et
+            une formation au back-office afin de pouvoir gérer son contenu.
+            Travail sur le référencement local et la mise en valeurs des
+            programmes.
+          </p>
+        </div>
+        <img src="../assets/icons/35.svg" class="border bottom" />
+      </a>
+      <a
+        href="https://www.quick-services-angouleme.fr/"
+        class="projects__card"
+        target="_blank"
+      >
+        <img src="../assets/icons/34.svg" class="border top" />
+        <div class="projects__card__top">
+          <img src="../assets/img/quick-services.png" />
+        </div>
+        <div class="projects__card__bottom">
+          <p>
+            Refonte du site vitrine d'une Cordonnerie - Serrurerie effectuée
+            début 2022. Premier projet en freelance avant expériences en
+            entreprise. L'objectif était d'améliorer le positionnement dans les
+            moteurs de recherche et d'améliorer le contenu.
+          </p>
+        </div>
+        <img src="../assets/icons/35.svg" class="border bottom" />
+      </a>
+    </div>
+  </section>
+</template>
+
+<style lang="scss" scoped>
+.container p {
+  margin-bottom: 25px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin-top: 30px;
+
+  @media screen and (max-width: 840px) {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__card {
+      &__top {
+        width: 100%;
+        height: 250px;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  &__card {
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+
+    .border {
+      width: 100px;
+      position: absolute;
+
+      @media screen and (max-width: 300px) {
+        display: none;
+      }
+    }
+
+    .top {
+      top: -33px;
+      left: -35px;
+    }
+
+    .bottom {
+      bottom: 0px;
+      right: -30px;
+      transform: rotate(180deg);
+    }
+
+    &__top {
+      width: 100%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-primary-color);
+  background: none;
+  -webkit-text-fill-color: inherit;
+}
+</style>

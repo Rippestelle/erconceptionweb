@@ -1,0 +1,204 @@
+<template>
+  <section class="container" id="services">
+    <h2>Mes services</h2>
+    <p>
+      Mes diverses expériences et mon profil atypique me permettent de vous
+      accompagner à chaque étape et sur différents types de projets. Site
+      vitrine, site institutionnel, landing page, site e-commerce ou encore
+      application métier, diverses solutions sont possibles en fonction de votre
+      besoin.
+    </p>
+
+    <ul class="services">
+      <li class="services__item" id="mouseffect">
+        <div class="tilt">
+          <h3>Création de site internet</h3>
+          <p>
+            Site WordPress clé en main et facile d'accès.<br />
+            Conception de thèmes et plugins sur mesure ou personnalisation de
+            thème existant.<br />
+            Site en JavaScript (Vue/Nuxt.js et Node.js) ou PHP.
+          </p>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="tilt">
+          <h3>Conseils en référencement naturel - SEO</h3>
+          <p>
+            Référencement naturel optimisé et conseils en stratégie de
+            référencement. Des pages bien construites, avec des mots clés
+            pertinents pour un référencement optimal.
+          </p>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="tilt">
+          <h3>Formation WordPress</h3>
+          <p>
+            En fonction de votre besoin, je propose plusieurs modules de
+            formation. Formation au back-office WordPress et plugins.<br />
+            Formation complète WordPress et Elementor afin d'apprendre à créer
+            votre site vous même.
+          </p>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="tilt">
+          <h3>Suivi &amp; Maintenance</h3>
+          <p>
+            Suivi, mises à jour et sauvegardes régulières de votre site. Même
+            après la mise en ligne, je me tiens disponible pour le bon
+            fonctionnement de votre site.<br />
+            Analyse de sécurité et tests.
+          </p>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="tilt">
+          <h3>Webmastering</h3>
+          <p>
+            Gestion et entretien d'un site, actualisation du contenu graphique
+            et/ou textuel, newsletter. Intégration d'articles et suivi des
+            statistiques. Je vous aide à obtenir une meilleure visibilité et
+            gagner plus de traffic.
+          </p>
+        </div>
+      </li>
+      <div class="parallax-services" id="services-animation">
+        <img
+          class="parallax-services__one"
+          data-parallax="10"
+          speed="0.2"
+          src="../assets/img/green_line.svg"
+        />
+        <img
+          class="parallax-services__two"
+          data-parallax="20"
+          speed="0.5"
+          src="../assets/img/purple_line.svg"
+        />
+        <img
+          class="parallax-services__three"
+          data-parallax="30"
+          speed="0.9"
+          src="../assets/img/blue_line.svg"
+        />
+      </div>
+    </ul>
+  </section>
+</template>
+
+<script setup lang="js">
+onMounted(() => {
+  moveElements({
+    container: "#services-animation",
+  });
+
+  tiltElement({
+    card :".services__item",
+  });
+});
+</script>
+
+<style lang="scss" scoped>
+#services {
+  overflow: visible;
+  h2 {
+    padding-top: 80px;
+
+    @media screen and (max-width: 840px) {
+      padding-top: 40px;
+    }
+  }
+  .services {
+    list-style-type: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 840px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      margin-top: 1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      max-width: 350px;
+      height: 100%;
+      border-radius: 16px;
+      width: 100%;
+
+      .tilt {
+        padding: 2em;
+        border-radius: 16px;
+        height: 100%;
+        /* From https://css.glass */
+        background: var(--tilt-color);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+
+        p {
+          text-align: left;
+          margin-bottom: 0;
+        }
+
+        h3 {
+          background: linear-gradient(
+            0.65turn,
+            rgb(88, 44, 145),
+            rgb(46, 128, 200) 35%,
+            #22d49e
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  .parallax-services {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    @media screen and (max-width: 840px) {
+      display: none;
+    }
+
+    img {
+      position: absolute;
+      z-index: 999;
+      transform: rotate(45deg);
+    }
+
+    &__one {
+      right: 60px;
+      width: 250px;
+    }
+
+    &__two {
+      right: 50px;
+      width: 225px;
+      top: 40px;
+    }
+
+    &__three {
+      right: 40px;
+      width: 200px;
+      top: 80px;
+    }
+  }
+}
+</style>
