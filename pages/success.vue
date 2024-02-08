@@ -9,5 +9,22 @@
       Si vous avez rencontré une erreur, n'hésitez pas à me contacter par mail à
       l'adresse estelle.rippe.pro@gmail.com
     </p>
+    <div class="spacer"></div>
+    <backHomeBtn />
+    <div class="spacer"></div>
   </section>
 </template>
+
+<script setup lang="ts">
+import backHomeBtn from "~/components/shared/backHomeBtn.vue";
+</script>
+
+<style scoped lang="scss">
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+</style>
