@@ -19,37 +19,37 @@
           class="parallax__one"
           data-parallax="30"
           speed="0.2"
-          src="../assets/icons/37.svg"
+          src="../public/assets/icons/37.svg"
         />
         <img
           class="parallax__two"
           data-parallax="60"
           speed="0.5"
-          src="../assets/icons/36.svg"
+          src="../public/assets/icons/36.svg"
         />
         <img
           class="parallax__three"
           data-parallax="120"
           speed="0.9"
-          src="../assets/icons/38.svg"
+          src="../public/assets/icons/38.svg"
         />
         <img
           class="parallax__four"
           data-parallax="30"
           speed="0.2"
-          src="../assets/icons/36.svg"
+          src="../public/assets/icons/36.svg"
         />
         <img
           class="parallax__five"
           data-parallax="60"
           speed="0.5"
-          src="../assets/icons/38.svg"
+          src="../public/assets/icons/38.svg"
         />
         <img
           class="parallax__six"
           data-parallax="120"
           speed="0.9"
-          src="../assets/icons/37.svg"
+          src="../public/assets/icons/37.svg"
         />
       </div>
     </div>

@@ -69,19 +69,19 @@
           class="parallax-services__one"
           data-parallax="10"
           speed="0.2"
-          src="../assets/img/green_line.svg"
+          src="../public/assets/img/green_line.svg"
         />
         <img
           class="parallax-services__two"
           data-parallax="20"
           speed="0.5"
-          src="../assets/img/purple_line.svg"
+          src="../public/assets/img/purple_line.svg"
         />
         <img
           class="parallax-services__three"
           data-parallax="30"
           speed="0.9"
-          src="../assets/img/blue_line.svg"
+          src="../public/assets/img/blue_line.svg"
         />
       </div>
     </ul>

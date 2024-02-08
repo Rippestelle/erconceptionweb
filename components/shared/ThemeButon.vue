@@ -9,11 +9,11 @@
       />
       <label for="checkbox" class="switch-label">
         <span title="Thème Sombre" class="dark-icon"
-          ><img src="../../assets/icons/icons8-moon-50.png"
+          ><img src="../../public/assets/icons/icons8-moon-50.png"
         /></span>
 
         <span title="Thème Clair" class="light-icon"
-          ><img src="../../assets/icons/icons8-sun-30.png"
+          ><img src="../../public/assets/icons/icons8-sun-30.png"
         /></span>
         <div
           class="switch-toggle"

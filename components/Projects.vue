@@ -14,9 +14,9 @@
         class="projects__card"
         target="_blank"
       >
-        <img src="../assets/icons/34.svg" class="border top" />
+        <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
-          <img src="../assets/img/maufit-coaching.png" />
+          <img src="../public/assets/img/maufit-coaching.png" />
         </div>
         <div class="projects__card__bottom">
           <p>
@@ -27,16 +27,16 @@
             programmes.
           </p>
         </div>
-        <img src="../assets/icons/35.svg" class="border bottom" />
+        <img src="../public/assets/icons/35.svg" class="border bottom" />
       </a>
       <a
         href="https://www.quick-services-angouleme.fr/"
         class="projects__card"
         target="_blank"
       >
-        <img src="../assets/icons/34.svg" class="border top" />
+        <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
-          <img src="../assets/img/quick-services.png" />
+          <img src="../public/assets/img/quick-services.png" />
         </div>
         <div class="projects__card__bottom">
           <p>
@@ -46,7 +46,7 @@
             moteurs de recherche et d'améliorer le contenu.
           </p>
         </div>
-        <img src="../assets/icons/35.svg" class="border bottom" />
+        <img src="../public/assets/icons/35.svg" class="border bottom" />
       </a>
     </div>
   </section>

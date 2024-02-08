@@ -16,7 +16,7 @@
     </div>
     <div class="arrow-down bounce">
       <a href="#about"
-        ><img src="../assets/icons/icons8-double-down-64.png"
+        ><img src="../public/assets/icons/icons8-double-down-64.png"
       /></a>
     </div>
   </header>
@@ -74,7 +74,8 @@
 
   &__right {
     width: 50%;
-    background: url("../assets/img/header_logo.svg") no-repeat center center;
+    background: url("../public/assets/img/header_logo.svg") no-repeat center
+      center;
     display: flex;
     justify-content: center;
     overflow: hidden;

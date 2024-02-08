@@ -27,13 +27,13 @@
           class="parallax-about__two"
           data-parallax="40"
           speed="0.5"
-          src="../assets/icons/40.svg"
+          src="../public/assets/icons/40.svg"
         />
         <img
           class="parallax-about__three"
           data-parallax="80"
           speed="0.9"
-          src="../assets/icons/42.svg"
+          src="../public/assets/icons/42.svg"
         />
       </div>
     </div>
