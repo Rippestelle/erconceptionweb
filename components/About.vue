@@ -17,24 +17,10 @@
         </p>
       </div>
       <div class="parallax-about" id="parallax-about">
-        <img
-          class="parallax-about__one"
-          data-parallax="20"
-          speed="0.2"
-          src="../public/assets/icons/38.svg"
-        />
-        <img
-          class="parallax-about__two"
-          data-parallax="40"
-          speed="0.5"
-          src="../public/assets/icons/40.svg"
-        />
-        <img
-          class="parallax-about__three"
-          data-parallax="80"
-          speed="0.9"
-          src="../public/assets/icons/42.svg"
-        />
+        <div class="parallax-about__one" data-parallax="20" speed="0.2"></div>
+        <div class="parallax-about__two" data-parallax="40" speed="0.5"></div>
+
+        <div class="parallax-about__three" data-parallax="80" speed="0.9"></div>
       </div>
     </div>
 
@@ -90,28 +76,37 @@ onMounted(() => {
       display: none;
     }
 
-    img {
+    div {
       position: absolute;
       z-index: 9;
+      transform: rotate(140deg);
     }
 
     &__one {
-      right: 60px;
-      top: 25px;
+      top: 80px;
+      right: 30px;
       width: 200px;
-      transform: rotate(180deg);
+      height: 10px;
+      border-radius: 20px;
+      background-color: #22d49e;
     }
 
     &__two {
-      right: 5px;
-      top: 50px;
-      width: 175px;
+      right: 35px;
+      top: 100px;
+      width: 150px;
+      height: 10px;
+      border-radius: 20px;
+      background-color: #582c91;
     }
 
     &__three {
-      right: 0;
-      top: 60px;
-      width: 150px;
+      right: 40px;
+      top: 120px;
+      width: 100px;
+      height: 10px;
+      border-radius: 20px;
+      background-color: #2e80c8;
     }
   }
 }

@@ -64,35 +64,22 @@
           </p>
         </div>
       </li>
-      <div class="parallax-services" id="services-animation">
-        <img
-          class="parallax-services__one"
-          data-parallax="10"
-          speed="0.2"
-          src="../public/assets/img/green_line.svg"
-        />
-        <img
-          class="parallax-services__two"
-          data-parallax="20"
-          speed="0.5"
-          src="../public/assets/img/purple_line.svg"
-        />
-        <img
-          class="parallax-services__three"
-          data-parallax="30"
-          speed="0.9"
-          src="../public/assets/img/blue_line.svg"
-        />
-      </div>
+      <li class="services__item">
+        <div class="tilt">
+          <h3>Site e-commerce</h3>
+          <p>
+            Création de boutiques en ligne avec Woo, pour artisans, commerçants
+            et indépendants. Gestion des produits, des commandes et des stocks.
+            Paiements sécurisés et vente à l'international.
+          </p>
+        </div>
+      </li>
     </ul>
   </section>
 </template>
 
 <script setup lang="js">
 onMounted(() => {
-  moveElements({
-    container: "#services-animation",
-  });
 
   tiltElement({
     card :".services__item",
@@ -116,6 +103,7 @@ onMounted(() => {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
+    justify-items: center;
 
     @media screen and (max-width: 1200px) {
       grid-template-columns: repeat(2, 1fr);
@@ -124,6 +112,7 @@ onMounted(() => {
     @media screen and (max-width: 840px) {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     &__item {

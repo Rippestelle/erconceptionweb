@@ -1,4 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="js">
+onMounted(() => {
+
+  tiltElement({
+    card :".projects__card",
+  });
+});
+</script>
 
 <template>
   <section class="container" id="projects">
@@ -115,6 +122,9 @@
         object-fit: cover;
         height: 100%;
       }
+    }
+    &__bottom p {
+      font-weight: 400;
     }
   }
 }

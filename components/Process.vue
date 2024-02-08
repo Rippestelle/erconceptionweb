@@ -12,7 +12,7 @@
 
     <ul class="process">
       <li class="process__item">
-        <span class="left green">1. Echange</span>
+        <span class="left green">1. <span class="text">Echange</span></span>
         <p>
           Nous échangeons dans un premier temps sur votre besoin et vos
           échéances. Je vous fournis un devis après étude de votre projet et
@@ -20,7 +20,7 @@
         </p>
       </li>
       <li class="process__item-right">
-        <span class="right blue">2. Conception</span>
+        <span class="right blue">2. <span class="text">Conception</span></span>
         <p>
           Elaboration du design et des divers documents nécessaires à la
           conception de votre site/application (cahier des charges, arborescence
@@ -29,7 +29,9 @@
         </p>
       </li>
       <li class="process__item">
-        <span class="left purple">3. Développement</span>
+        <span class="left purple"
+          >3. <span class="text">Développement</span></span
+        >
         <p>
           Construction de votre site. L'intégration se fait étape par étape,
           avec des rendez-vous fixés en fonction de votre emploi du temps afin
@@ -37,7 +39,7 @@
         </p>
       </li>
       <li class="process__item-right">
-        <span class="right green">4. Livraison</span>
+        <span class="right green">4. <span class="text">Livraison</span></span>
         <p>
           Après avoir effectué les derniers tests, votre site est mis en ligne
           et le référencement est suivi de près. Tous les moyens sont mis en
@@ -45,7 +47,7 @@
         </p>
       </li>
       <li class="process__item">
-        <span class="left blue">5. Formation</span>
+        <span class="left blue">5. <span class="text">Formation</span></span>
         <p>
           Avant ou après la mise en ligne de votre site, je vous forme à l'outil
           afin que vous puissiez gérer le contenu de votre site en toute
@@ -57,7 +59,9 @@
         </p>
       </li>
       <li class="process__item-right">
-        <span class="right purple">6. Suivi &amp; Maintenance</span>
+        <span class="right purple"
+          >6. <span class="text">Suivi &amp; Maintenance</span></span
+        >
         <p>
           Bénéficiez d'un suivi personnalisé en fonction de vos besoins et de
           vos objectifs.<br />
@@ -167,5 +171,9 @@
   .purple {
     border-bottom-color: rgb(88, 44, 145);
   }
+}
+
+.text {
+  color: var(--text-primary-color);
 }
 </style>

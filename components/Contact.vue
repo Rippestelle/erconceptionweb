@@ -14,43 +14,14 @@
     <p>Ou via le formulaire de contact suivant :</p>
     <div class="row">
       <ContactForm />
-      <div class="parallax" id="parallax-effect">
-        <img
-          class="parallax__one"
-          data-parallax="30"
-          speed="0.2"
-          src="../public/assets/icons/37.svg"
-        />
-        <img
-          class="parallax__two"
-          data-parallax="60"
-          speed="0.5"
-          src="../public/assets/icons/36.svg"
-        />
-        <img
-          class="parallax__three"
-          data-parallax="120"
+      <div class="parallax-contact" id="parallax-contact">
+        <div class="parallax-contact__one" data-parallax="20" speed="0.2"></div>
+        <div class="parallax-contact__two" data-parallax="40" speed="0.5"></div>
+        <div
+          class="parallax-contact__three"
+          data-parallax="80"
           speed="0.9"
-          src="../public/assets/icons/38.svg"
-        />
-        <img
-          class="parallax__four"
-          data-parallax="30"
-          speed="0.2"
-          src="../public/assets/icons/36.svg"
-        />
-        <img
-          class="parallax__five"
-          data-parallax="60"
-          speed="0.5"
-          src="../public/assets/icons/38.svg"
-        />
-        <img
-          class="parallax__six"
-          data-parallax="120"
-          speed="0.9"
-          src="../public/assets/icons/37.svg"
-        />
+        ></div>
       </div>
     </div>
   </section>
@@ -61,7 +32,7 @@ import ContactForm from "./ContactForm.vue";
 
 onMounted(() => {
   moveElements({
-    container: '#parallax-effect ',
+    container: '#parallax-contact ',
   });
 });
 </script>
@@ -72,8 +43,9 @@ section {
 
   .row {
     justify-content: space-between;
+    flex-direction: row-reverse;
 
-    .parallax {
+    .parallax-contact {
       width: 50%;
       position: relative;
 
@@ -81,50 +53,37 @@ section {
         display: none;
       }
 
-      img {
+      div {
         position: absolute;
+        z-index: 9;
+        transform: rotate(325deg);
       }
 
       &__one {
-        left: 15%;
-        bottom: 15%;
-        transform: rotate(90deg);
-        width: 150px;
+        top: 180px;
+        left: 50px;
+        width: 50%;
+        height: 15px;
+        background-color: #22d49e;
+        border-radius: 20px;
       }
 
       &__two {
-        left: 15%;
-        bottom: 15%;
-        transform: rotate(90deg);
-        width: 125px;
+        left: 110px;
+        top: 225px;
+        width: 40%;
+        height: 15px;
+        background-color: #2e80c8;
+        border-radius: 20px;
       }
 
       &__three {
-        left: 15%;
-        bottom: 15%;
-        width: 100px;
-        transform: rotate(90deg);
-      }
-
-      &__four {
-        right: 15%;
-        top: 0px;
-        transform: rotate(-90deg);
-        width: 100px;
-      }
-
-      &__five {
-        right: 15%;
-        top: 5px;
-        transform: rotate(-90deg);
-        width: 125px;
-      }
-
-      &__six {
-        right: 15%;
-        top: 10px;
-        transform: rotate(-90deg);
-        width: 150px;
+        left: 170px;
+        top: 265px;
+        width: 30%;
+        height: 15px;
+        background-color: #582c91;
+        border-radius: 20px;
       }
     }
   }
