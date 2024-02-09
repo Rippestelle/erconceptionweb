@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>
-    <div class="container">
+  <section role="region">
+    <div role="contentinfo" class="container">
       <div class="flex">
         <div class="logo">
           <router-link to="/">
@@ -57,7 +57,7 @@
           </ul>
         </div>
       </div>
-      <footer>
+      <footer role="contentinfo">
         <div class="container">
           <span>Copyright 2023</span> |
           <router-link to="/politique-confidentialite/" class="nav-link">

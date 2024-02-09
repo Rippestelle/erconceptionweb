@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderAlt title="Mentions légales" />
-    <section class="container">
+    <section class="container" role="region">
       <h2>Présentation du site</h2>
       <ul>
         <li>Propriétaire: Estelle RIPPE</li>

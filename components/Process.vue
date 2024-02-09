@@ -1,13 +1,8 @@
 <template>
-  <section class="container" id="process">
+  <section class="container" id="process" role="region">
     <h2>Méthode</h2>
-    <p>
-      Mes diverses expériences me permettent de vous proposer des solutions clés
-      en main réalisées dans les bonnes pratiques et normes de qualité web. Je
-      réalise des sites vitrines, sites institutionnels, landing page, sites
-      e-commerce ou encore des applications métiers, avec une conception et un
-      accompagnement sur mesure afin de m'adapter à votre vision et vos
-      objectifs.
+    <p class="head-text">
+      Bénéficiez d'un accompagnement sur mesure, en fonction de vos objectifs.
     </p>
 
     <ul class="process">
@@ -43,7 +38,7 @@
         <p>
           Après avoir effectué les derniers tests, votre site est mis en ligne
           et le référencement est suivi de près. Tous les moyens sont mis en
-          oeuvre pour obtenir le maximum de visibilité en ligne.
+          oeuvre pour obtenir un maximum de visibilité en ligne.
         </p>
       </li>
       <li class="process__item">
@@ -53,8 +48,8 @@
           afin que vous puissiez gérer le contenu de votre site en toute
           autonomie. Selon le niveau d'autonomie souhaité, je propose des
           formations WordPress poussées ainsi que des formations SEO pour
-          continuer d'optimiser votre référencement après la mise en ligne. Ces
-          formations peuvent se faire en présentiel ou en distanciel. Une
+          continuer d'optimiser votre référencement. Ces formations peuvent se
+          faire en présentiel (selon le secteur) ou en distanciel. Une
           documentation sera également fournie.
         </p>
       </li>
@@ -88,6 +83,10 @@
     @media screen and (max-width: 840px) {
       padding-top: 40px;
     }
+  }
+
+  .head-text {
+    align-self: flex-start;
   }
   .process {
     list-style-type: none;

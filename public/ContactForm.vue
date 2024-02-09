@@ -1,6 +1,7 @@
 <template>
   <form
     name="Website Contact Form"
+    role="form"
     method="post"
     action="/success"
     data-netlify="true"

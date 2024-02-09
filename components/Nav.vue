@@ -53,7 +53,7 @@ onMounted(() => {
         </div>
 
         <div class="nav-container">
-          <nav>
+          <nav role="navigation">
             <router-link
               class="nav__link nav-link"
               to="/#about"

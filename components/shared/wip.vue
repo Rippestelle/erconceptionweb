@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" role="region">
     <h2>Page en cours de construction...</h2>
     <p>
       Ce site est en cours de construction, revenez bientôt pour suivre les

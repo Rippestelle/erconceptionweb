@@ -1,7 +1,7 @@
 <script lang="ts"></script>
 
 <template>
-  <header class="header">
+  <header class="header" role="banner">
     <div class="container flex">
       <div class="header__left">
         <div class="header-main fade-in">
@@ -15,8 +15,10 @@
       <div class="header__right"></div>
     </div>
     <div class="arrow-down bounce">
-      <a href="#about"
-        ><img src="../public/assets/icons/icons8-double-down-64.png"
+      <a href="#about" aria-label="Aller à la section A propos"
+        ><img
+          src="../public/assets/icons/icons8-double-down-64.png"
+          alt="down arrow"
       /></a>
     </div>
   </header>

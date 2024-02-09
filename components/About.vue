@@ -1,19 +1,24 @@
 <template>
-  <section class="container about" id="about">
+  <section class="container about" id="about" role="region">
     <h2>A propos</h2>
     <div class="row">
       <div>
         <h3>Bonjour, je suis Estelle, développeuse Web.</h3>
-        <p>Je vous accompagne dans votre statégie digitale.</p>
+        <p>
+          Je vous accompagne dans votre statégie digitale et la création de
+          votre site.
+        </p>
         <p>
           Titulaire d'un diplôme en Conception d'applications et sites web (RNCP
           VI), je conçois des sites clés en mains et sur mesure en adoptant les
-          bonnes pratiques et les normes d'accessibilité web.
+          bonnes pratiques et les normes d'accessibilité web.<br />
+          Je suis spécialisée dans les sites WordPress, sites en JavaScript ou
+          en PHP, et en référencement naturel (SEO).
         </p>
         <p>
-          Issue de formation Littéraire, je mets à profit mes compétences
-          acquises dans la rédaction et l'optimisation de votre contenu afin
-          d'obtenir un bon référencement naturel (SEO).
+          Egalement issue de formation supérieure littéraire, je mets à profit
+          mes compétences acquises dans la rédaction et l'optimisation de votre
+          contenu afin d'obtenir un bon référencement.
         </p>
       </div>
       <div class="parallax-about" id="parallax-about">

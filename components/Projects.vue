@@ -8,7 +8,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="container" id="projects">
+  <section class="container" id="projects" role="region">
     <h2>Projets</h2>
     <p>
       En dehors de nombreux projets réalisés en entreprise (sites vitrines,
@@ -20,10 +20,14 @@ onMounted(() => {
         href="https://maufitcoaching.fr/"
         class="projects__card"
         target="_blank"
+        title="Aller sur le site https://maufitcoaching.fr/"
       >
         <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
-          <img src="../public/assets/img/maufit-coaching.png" />
+          <img
+            src="../public/assets/img/maufit-coaching.png"
+            alt="couverture du site Maufitcoaching.fr"
+          />
         </div>
         <div class="projects__card__bottom">
           <p>
@@ -34,16 +38,24 @@ onMounted(() => {
             programmes.
           </p>
         </div>
-        <img src="../public/assets/icons/35.svg" class="border bottom" />
+        <img
+          src="../public/assets/icons/35.svg"
+          class="border bottom"
+          alt="couverture du site Quick-services-angouleme.fr"
+        />
       </a>
       <a
         href="https://www.quick-services-angouleme.fr/"
         class="projects__card"
         target="_blank"
+        title="Aller sur le site https://www.quick-services-angouleme.fr/"
       >
         <img src="../public/assets/icons/34.svg" class="border top" />
         <div class="projects__card__top">
-          <img src="../public/assets/img/quick-services.png" />
+          <img
+            src="../public/assets/img/quick-services.png"
+            alt="couverture du site Quick-services-angouleme.fr"
+          />
         </div>
         <div class="projects__card__bottom">
           <p>

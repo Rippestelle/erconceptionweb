@@ -11,7 +11,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="container headeralt">
+  <section class="container headeralt" role="region">
     <div class="row" id="animation">
       <div class="animation">
         <img

@@ -1,5 +1,5 @@
 <template>
-  <section class="container" id="services">
+  <section class="container" id="services" role="region">
     <h2>Mes services</h2>
     <p>
       Mes diverses expériences et mon profil atypique me permettent de vous

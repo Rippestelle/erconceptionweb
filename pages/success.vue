@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" role="region">
     <h1>Votre message a bien été envoyé</h1>
     <p>
       Merci d'avoir pris contact avec mon entreprise. Je vous recontacte dans

@@ -1,5 +1,5 @@
 <template>
-  <section class="container" id="services">
+  <section class="container" id="services" role="region">
     <h2>Mes services</h2>
     <p>
       Mes diverses expériences et mon profil atypique me permettent de vous
@@ -17,7 +17,7 @@
             Site WordPress clé en main et facile d'accès.<br />
             Conception de thèmes et plugins sur mesure ou personnalisation de
             thème existant.<br />
-            Site en JavaScript (Vue/Nuxt.js et Node.js) ou PHP.
+            Site sur mesure en JavaScript (Nuxt.js) ou PHP.
           </p>
         </div>
       </li>
@@ -59,7 +59,7 @@
           <p>
             Gestion et entretien d'un site, actualisation du contenu graphique
             et/ou textuel, newsletter. Intégration d'articles et suivi des
-            statistiques. Je vous aide à obtenir une meilleure visibilité et
+            statistiques. Je vous aide à obtenir une meilleure visibilité et à
             gagner plus de traffic.
           </p>
         </div>

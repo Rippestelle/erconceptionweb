@@ -43,7 +43,7 @@ watch(
 
   <Nav />
   <ThemeButon />
-  <main>
+  <main role="main">
     <slot />
   </main>
   <Footer />

@@ -14,7 +14,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="container">
+  <section class="container" role="region">
     <HeaderAlt title="Politique de confidentialité" />
     <p>
       Ce document décrit les pratiques de confidentialité ainsi que vos choix
