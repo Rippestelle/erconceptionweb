@@ -71,7 +71,7 @@ const submitForm = async (e) => {
   console.log("formData", formData);
   let body = new URLSearchParams(formData).toString();
   console.log("body", body);
-  fetch("/ContactForm.vue", {
+  fetch("/public/ContactForm.vue", {
     method: "post",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
