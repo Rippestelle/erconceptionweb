@@ -19,6 +19,12 @@ export default defineNuxtConfig({
         { name: "og:locale:alternate", content: "fr_FR" },
         { name: "og:type", content: "website" },
         { name: "og:email", content: "estelle.rippe.pro@gmail.com" },
+        { name: "og:image", content: "https://er-conception-web.fr/cover.png" },
+        {
+          name: "twitter:image",
+          content: "https://er-conception-web.fr/cover.png",
+        },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
