@@ -126,6 +126,12 @@
         margin-top: 2em;
         width: 80%;
       }
+
+      @media screen and (max-width: 640px) {
+        p {
+          width: 100%;
+        }
+      }
     }
 
     &__item-right {
@@ -156,6 +162,12 @@
         margin-top: 2em;
         width: 80%;
         text-align: end;
+      }
+
+      @media screen and (max-width: 640px) {
+        p {
+          width: 100%;
+        }
       }
     }
   }

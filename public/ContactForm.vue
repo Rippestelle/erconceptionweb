@@ -122,6 +122,12 @@ form {
       color: var(--text-primary-color);
     }
   }
+
+  @media screen and (max-width: 640px) {
+    button {
+      align-self: center;
+    }
+  }
 }
 
 #checkbox {
@@ -136,5 +142,11 @@ form {
 .checkbox-container {
   width: 75%;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  .checkbox-container {
+    width: 100%;
+  }
 }
 </style>
