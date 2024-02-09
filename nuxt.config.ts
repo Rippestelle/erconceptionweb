@@ -25,8 +25,15 @@ export default defineNuxtConfig({
           content: "https://er-conception-web.fr/cover.png",
         },
         { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "google-site-verification",
+          content: "tv9Tox7PgmOAi3cvYeS4VsaujMb-MSiHrxpBT3HY5LY",
+        },
       ],
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
+      htmlAttrs: {
+        lang: "fr",
+      },
     },
   },
   modules: [
