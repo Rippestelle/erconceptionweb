@@ -61,32 +61,7 @@
   </form>
 </template>
 
-<script setup lang="ts">
-const formData = reactive({
-  name: "",
-  number: "",
-});
-const submitForm = async (e) => {
-  e.preventDefault();
-  console.log("formData", formData);
-  let body = new URLSearchParams(formData).toString();
-  console.log("body", body);
-  fetch("/public/ContactForm.vue", {
-    method: "post",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: body,
-  })
-    .then((res) => {
-      console.log("form sumbitted", res);
-      if (res.status === 200) {
-        navigateTo("/success");
-      }
-    })
-    .catch((error) => console.error(error));
-};
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped>
 form {
