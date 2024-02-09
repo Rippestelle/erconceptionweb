@@ -1,12 +1,12 @@
 <template>
   <form
-    name="Formulaire de contact"
+    name="Website Contact Form"
     method="post"
     action="/success"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="Formulaire de contact" />
+    <input type="hidden" name="form-name" value="Website Contact Form" />
     <p hidden>
       <label>Don’t fill this out: <input name="bot-field" /></label>
     </p>
