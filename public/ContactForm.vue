@@ -5,7 +5,6 @@
     action="/success"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
-    @submit="submitForm($event)"
   >
     <input type="hidden" name="form-name" value="Formulaire de contact" />
     <p hidden>

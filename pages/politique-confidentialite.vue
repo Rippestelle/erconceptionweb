@@ -108,7 +108,7 @@ useSeoMeta({
       externes qui pourraient être présents sur le site.
     </p>
 
-    <h2>Mise à jour de la politique de confidentialité</h2>
+    <h2 class="height-title">Mise à jour de la politique de confidentialité</h2>
     <p>
       Bien que la plupart des changements soient susceptibles d’être mineurs,
       cette politique de confidentialité peut être modifiée de temps en temps.
@@ -125,5 +125,18 @@ useSeoMeta({
 a {
   color: var(--text-primary-color);
   text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .height-title {
+    height: 60px;
+  }
 }
 </style>

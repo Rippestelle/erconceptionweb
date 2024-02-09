@@ -24,7 +24,7 @@
         mise en ligne.
       </p>
 
-      <h2>
+      <h2 class="height-title">
         Conditions générales d'utilisation du site et des services proposés
       </h2>
       <p>
@@ -35,7 +35,9 @@
         manière régulière.
       </p>
 
-      <h2>Limitations contractuelles sur les données techniques</h2>
+      <h2 class="height-title">
+        Limitations contractuelles sur les données techniques
+      </h2>
       <p>
         Le site utilise la technologie JavaScript (framework Vue.js et Nuxt.js).
         Le site Internet ne pourra être tenu responsable de dommages matériels
@@ -67,5 +69,18 @@ useSeoMeta({
 <style lang="scss" scoped>
 .container {
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .height-title {
+    height: 60px;
+  }
 }
 </style>

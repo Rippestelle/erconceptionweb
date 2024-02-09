@@ -17,19 +17,19 @@ onMounted(() => {
         <img
           class="animation__one animation-img"
           data-parallax="30"
-          speed="0.2"
+          speed="0.05"
           src="../../public/assets/icons/38.svg"
         />
         <img
           class="animation__two animation-img"
           data-parallax="60"
-          speed="0.5"
+          speed="0.1"
           src="../../public/assets/icons/40.svg"
         />
         <img
           class="animation__three animation-img"
           data-parallax="120"
-          speed="0.9"
+          speed="0.3"
           src="../../public/assets/icons/42.svg"
         />
       </div>
@@ -40,19 +40,19 @@ onMounted(() => {
         <img
           class="animation__four"
           data-parallax="30"
-          speed="0.2"
+          speed="0.05"
           src="../../public/assets/icons/36.svg"
         />
         <img
           class="animation__five"
           data-parallax="60"
-          speed="0.5"
+          speed="0.1"
           src="../../public/assets/icons/42.svg"
         />
         <img
           class="animation__six"
           data-parallax="120"
-          speed="0.9"
+          speed="0.3"
           src="../../public/assets/icons/41.svg"
         />
       </div>
@@ -87,6 +87,12 @@ onMounted(() => {
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    @media screen and (max-width: 640px) {
+      .title {
+        width: 100%;
+      }
     }
 
     .animation {
@@ -133,6 +139,12 @@ onMounted(() => {
         left: 110px;
         bottom: 25px;
         width: 150px;
+      }
+    }
+
+    @media screen and (max-width: 640px) {
+      .animation {
+        display: none;
       }
     }
   }
