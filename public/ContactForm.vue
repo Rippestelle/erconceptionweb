@@ -2,10 +2,9 @@
   <form
     name="Formulaire de contact"
     method="post"
-    action="success"
+    action="/success"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
-    hidden
   >
     <input type="hidden" name="form-name" value="Formulaire de contact" />
     <p hidden>
