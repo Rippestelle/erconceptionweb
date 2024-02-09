@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="js">
-import ContactForm from "../public/ContactForm.html";
+import ContactForm from "../public/ContactForm.vue";
 
 onMounted(() => {
   moveElements({
