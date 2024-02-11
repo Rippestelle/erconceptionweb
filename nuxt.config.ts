@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   routeRules: {
-    "/": { ssr: false },
+    "/": { prerender: true },
     "/form.html": { ssr: false },
   },
   site: {
