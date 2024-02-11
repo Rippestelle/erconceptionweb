@@ -5,7 +5,6 @@ import Projects from "../components/Projects.vue";
 import ServicesAlt from "../components/ServicesAlt.vue";
 import Process from "../components/Process.vue";
 import Contact from "../components/Contact.vue";
-import Form from "/form.html";
 
 useSeoMeta({
   title: "Création de sites web",
@@ -25,7 +24,6 @@ useSeoMeta({
   <Process />
   <Projects />
   <Contact />
-  <Form />
 </template>
 
 <style scoped></style>
