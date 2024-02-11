@@ -1,11 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
-  routeRules: {
-    "/": { prerender: true },
-    "/form.html": { ssr: false },
-  },
   site: {
     url: "https://er-conception-web.fr",
     trailingSlash: true,
@@ -41,7 +36,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "icon", type: "image/svg", href: "/favicon.svg" },
-        { rel: "import", type: "text/html", href: "/ContactForm.html" },
+        { rel: "import", type: "text/html", href: "/form.html" },
       ],
       htmlAttrs: {
         lang: "fr",
