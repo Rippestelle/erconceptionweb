@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
-
+  routeRules: {
+    "/": { ssr: false },
+    "/form.html": { ssr: false },
+  },
   site: {
     url: "https://er-conception-web.fr",
     trailingSlash: true,
