@@ -8,8 +8,8 @@
         <li>Créateur: Estelle RIPPE</li>
         <li>
           Hébergeur:
-          <router-link to="https://www.netlify.com/" rel="“noreferrer”"
-            >https://www.netlify.com/</router-link
+          <NuxtLink to="https://www.netlify.com/" rel="“noreferrer”"
+            >https://www.netlify.com/</NuxtLink
           >
         </li>
       </ul>

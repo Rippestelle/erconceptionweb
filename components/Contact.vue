@@ -3,7 +3,7 @@
     <h2>Me contacter</h2>
 
     <div class="row">
-      <ContactForm />
+      <iframe src="/ContactForm.html"></iframe>
       <div id="parallax-contact">
         <p>
           Vous souhaitez vous lancer dans la création ou l'optimisation de votre
@@ -44,12 +44,11 @@
 </template>
 
 <script setup lang="js">
-import ContactForm from "../public/ContactForm.vue";
-
 onMounted(() => {
   moveElements({
-    container: '#parallax-contact ',
+    container: '#parallax-contact',
   });
+
 });
 </script>
 
@@ -107,5 +106,16 @@ section {
       }
     }
   }
+}
+
+iframe {
+  width: 600px;
+  height: 700px;
+  border: none;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--background-color-primary);
 }
 </style>

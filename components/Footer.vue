@@ -5,54 +5,52 @@
     <div role="contentinfo" class="container">
       <div class="flex">
         <div class="logo">
-          <router-link to="/">
+          <NuxtLink to="/">
             <img
               loading="lazy"
               src="/assets/img/logo_bandes.svg"
               class="w-full"
               alt="Logo Estelle Rippe - Création de sites web"
             />
-          </router-link>
+          </NuxtLink>
         </div>
         <div class="infos">
           <!--           <ul class="links">
             <li class="links__item">
-              <router-link to="/"> Conseils en stratégie digitale </router-link>
+              <NuxtLink to="/"> Conseils en stratégie digitale </NuxtLink>
             </li>
 
             <li class="links__item">
-              <router-link to="/">
+              <NuxtLink to="/">
                 Création de sites web sur mesure
-              </router-link>
+              </NuxtLink>
             </li>
 
             <li class="links__item">
-              <router-link to="/"> Création de sites Wordpress </router-link>
+              <NuxtLink to="/"> Création de sites Wordpress </NuxtLink>
             </li>
 
             <li class="links__item">
-              <router-link to="/">
-                Conseils en référencement naturel SEO</router-link
+              <NuxtLink to="/">
+                Conseils en référencement naturel SEO</NuxtLink
               >
             </li>
           </ul>
  -->
           <ul class="links">
             <li class="links__item">
-              <router-link to="#services" class="nav-link">
-                Services</router-link
-              >
+              <NuxtLink to="#services" class="nav-link"> Services</NuxtLink>
             </li>
             <li class="links__item">
-              <router-link to="#contact" class="nav-link"> Contact</router-link>
+              <NuxtLink to="#contact" class="nav-link"> Contact</NuxtLink>
             </li>
 
             <li class="links__item">
-              <router-link to="#projects" class="nav-link">Projets</router-link>
+              <NuxtLink to="#projects" class="nav-link">Projets</NuxtLink>
             </li>
 
             <li class="links__item">
-              <router-link to="#about" class="nav-link">A propos</router-link>
+              <NuxtLink to="#about" class="nav-link">A propos</NuxtLink>
             </li>
           </ul>
         </div>
@@ -60,13 +58,13 @@
       <footer role="contentinfo">
         <div class="container">
           <span>Copyright 2023</span> |
-          <router-link to="/politique-confidentialite/" class="nav-link">
+          <NuxtLink to="/politique-confidentialite/" class="nav-link">
             Politique de confidentialité
-          </router-link>
+          </NuxtLink>
           |
-          <router-link to="/mentions-legales/" class="nav-link">
+          <NuxtLink to="/mentions-legales/" class="nav-link">
             Mentions légales
-          </router-link>
+          </NuxtLink>
         </div>
       </footer>
     </div>

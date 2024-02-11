@@ -2,7 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   site: {
+    url: "https://er-conception-web.fr",
     trailingSlash: true,
+  },
+  vite: {
+    assetsInclude: [/\.html/],
   },
   pages: true,
   css: ["~/assets/scss/app.scss"],
@@ -30,7 +34,10 @@ export default defineNuxtConfig({
           content: "tv9Tox7PgmOAi3cvYeS4VsaujMb-MSiHrxpBT3HY5LY",
         },
       ],
-      link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
+      link: [
+        { rel: "icon", type: "image/svg", href: "/favicon.svg" },
+        { rel: "import", type: "text/html", href: "/ContactForm.html" },
+      ],
       htmlAttrs: {
         lang: "fr",
       },

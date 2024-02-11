@@ -30,63 +30,63 @@ onMounted(() => {
 <template>
   <div id="top">
     <div class="responsive-logo">
-      <router-link to="/">
+      <NuxtLink to="/">
         <img
           src="/assets/img/logo_bandes.svg"
           alt="Logo Estelle Rippe - Développement Web"
         />
-      </router-link>
+      </NuxtLink>
     </div>
 
     <div class="navbar">
       <header ref="header" class="container">
         <div class="nav__heading">
-          <router-link to="/">
+          <NuxtLink to="/">
             <img
               src="/assets/img/logo_bandes.svg"
               alt="Logo Estelle Rippe - Développement Web"
               class="desktop-logo"
             />
-          </router-link>
+          </NuxtLink>
 
           <MenuIcon class="responsive-menu" @click="toggleNavbar" />
         </div>
 
         <div class="nav-container">
           <nav role="navigation">
-            <router-link
+            <NuxtLink
               class="nav__link nav-link"
               to="/#about"
               @click="() => onNavigation()"
             >
               A propos
-            </router-link>
+            </NuxtLink>
 
-            <router-link
+            <NuxtLink
               class="nav__link nav-link"
               to="/#services"
               @click="() => onNavigation()"
             >
               Services
-            </router-link>
+            </NuxtLink>
 
-            <router-link
+            <NuxtLink
               class="nav__link nav-link"
               to="/#projects"
               @click="() => onNavigation()"
             >
               Projets
-            </router-link>
+            </NuxtLink>
           </nav>
 
           <div class="flex">
-            <router-link
+            <NuxtLink
               class="nav__link button-64"
               to="/#contact"
               @click="() => onNavigation()"
             >
               <span class="text">Contact</span>
-            </router-link>
+            </NuxtLink>
           </div>
         </div>
       </header>
@@ -171,8 +171,8 @@ header {
     margin-right: 1.2em;
     font-size: 14px;
 
-    &.router-link-exact-active,
-    &.router-link-exact-active > a {
+    &.NuxtLink-exact-active,
+    &.NuxtLink-exact-active > a {
       font-weight: 600;
     }
 

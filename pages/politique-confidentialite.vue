@@ -20,7 +20,7 @@ useSeoMeta({
       Ce document décrit les pratiques de confidentialité ainsi que vos choix
       concernant l’utilisation, l’accès et la correction des données
       personnelles sur le site
-      <router-link to="/">er-conception-web.fr</router-link>
+      <NuxtLink to="/">er-conception-web.fr</NuxtLink>
     </p>
 
     <h2>Données collectées</h2>
@@ -78,8 +78,8 @@ useSeoMeta({
     <h2>Stockage des données</h2>
     <p>
       Les données du site sont stockées sur les serveurs de Netlify
-      <router-link to="https://www.netlify.com/" rel="“noreferrer”"
-        >https://www.netlify.com/</router-link
+      <NuxtLink to="https://www.netlify.com/" rel="“noreferrer”"
+        >https://www.netlify.com/</NuxtLink
       >. Ce prestataire est conforme au RGPD et s’engage à respecter la
       politique de confidentialité lié à ce règlement. Vous pouvez vérifier
       l’ensemble des sous-traitants dans la partie ci-dessous intitulée “Liste
@@ -88,15 +88,15 @@ useSeoMeta({
     <h2>Liste des sous-traitants</h2>
     <ul>
       <li>
-        Netlify (<router-link to="https://www.netlify.com/" rel="“noreferrer”"
-          >https://www.netlify.com</router-link
+        Netlify (<NuxtLink to="https://www.netlify.com/" rel="“noreferrer”"
+          >https://www.netlify.com</NuxtLink
         >) : hébergement du site
       </li>
       <li>
-        Google Analytics (<router-link
+        Google Analytics (<NuxtLink
           to="https://analytics.google.com/analytics/web/"
           rel="“noreferrer”"
-        ></router-link
+        ></NuxtLink
         >) : outil de mesure d’audience pour l’amélioration du site
       </li>
     </ul>

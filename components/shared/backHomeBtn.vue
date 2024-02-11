@@ -1,6 +1,6 @@
 <template>
   <div class="bg">
-    <router-link to="/" class="back-home-btn"><span>Accueil</span></router-link>
+    <NuxtLink to="/" class="back-home-btn"><span>Accueil</span></NuxtLink>
   </div>
 </template>
 
