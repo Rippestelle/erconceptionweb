@@ -3,7 +3,6 @@
     <h2>Me contacter</h2>
 
     <div class="row">
-      <iframe src="/ContactForm.html"></iframe>
       <div id="parallax-contact">
         <p>
           Vous souhaitez vous lancer dans la création ou l'optimisation de votre
@@ -20,7 +19,8 @@
           >
           ou téléphone par au 06 76 26 63 24
         </p>
-        <p>Ou via le formulaire de contact suivant :</p>
+        <!--         <p>Ou via le formulaire de contact suivant :</p>
+ -->
         <div class="parallax-contact">
           <div
             class="parallax-contact__one"
@@ -58,7 +58,8 @@ section {
 
   .row {
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    height: 400px;
 
     @media screen and (max-width: 640px) {
       flex-direction: column-reverse;
@@ -106,16 +107,5 @@ section {
       }
     }
   }
-}
-
-iframe {
-  width: 600px;
-  height: 700px;
-  border: none;
-  overflow: hidden;
-}
-
-body {
-  background-color: var(--background-color-primary);
 }
 </style>
