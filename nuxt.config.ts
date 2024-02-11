@@ -38,6 +38,12 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/svg", href: "/favicon.svg" },
         { rel: "import", type: "text/html", href: "/form.html" },
       ],
+      script: [
+        {
+          type: "text/html",
+          src: "/form.html",
+        },
+      ],
       htmlAttrs: {
         lang: "fr",
       },
