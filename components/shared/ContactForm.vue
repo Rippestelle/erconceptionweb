@@ -113,6 +113,10 @@ form {
     width: fit-content;
     padding: 3px 3px 3px 3px;
 
+    @media screen and (max-width: 640px) {
+      align-self: center;
+    }
+
     span {
       padding: 7px 15px;
       text-transform: uppercase;
@@ -136,5 +140,9 @@ form {
 .checkbox-container {
   width: 75%;
   margin-bottom: 25px;
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
 }
 </style>
