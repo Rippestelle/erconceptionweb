@@ -57,6 +57,10 @@ section {
     justify-content: space-between;
     flex-direction: row-reverse;
 
+    @media screen and (max-width: 640px) {
+      flex-direction: column-reverse;
+    }
+
     .parallax-contact {
       position: relative;
 

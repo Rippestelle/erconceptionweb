@@ -17,6 +17,16 @@
 
 <script setup lang="ts">
 import backHomeBtn from "~/components/shared/backHomeBtn.vue";
+
+useSeoMeta({
+  title: "Votre message a bien été envoyé",
+  ogTitle: "Votre message a bien été envoyé",
+  description:
+    "Page de confirmation d'envoi d'un message via le formulaire de contact du site er-conception-web.fr",
+  ogDescription:
+    "Page de confirmation d'envoi d'un message via le formulaire de contact du site er-conception-web.fr.",
+  ogUrl: "/success",
+});
 </script>
 
 <style scoped lang="scss">
