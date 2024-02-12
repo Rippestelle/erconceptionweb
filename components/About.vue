@@ -5,13 +5,13 @@
       <div>
         <h3>Bonjour, je suis Estelle, développeuse Web.</h3>
         <p>
-          Je vous accompagne dans votre statégie digitale et la création de
+          Je vous accompagne dans votre stratégie digitale et la création de
           votre site.
         </p>
         <p>
-          Titulaire d'un diplôme en Conception d'applications et sites web (RNCP
-          VI), je conçois des sites clés en mains et sur mesure en adoptant les
-          bonnes pratiques et les normes d'accessibilité web.<br />
+          Titulaire d'un diplôme en Conception d'applications et de sites web
+          (RNCP VI), je conçois des sites clés en mains et sur mesure en
+          adoptant les bonnes pratiques et les normes d'accessibilité web.<br />
           Je suis spécialisée dans les sites WordPress, sites en JavaScript ou
           en PHP, et en référencement naturel (SEO).
         </p>
@@ -24,17 +24,9 @@
       <div class="parallax-about" id="parallax-about">
         <div class="parallax-about__one" data-parallax="20" speed="0.2"></div>
         <div class="parallax-about__two" data-parallax="40" speed="0.5"></div>
-
         <div class="parallax-about__three" data-parallax="80" speed="0.9"></div>
       </div>
     </div>
-
-    <!--     <p>
-      Reconvertie dans la création de sites web en 2020 et propose
-      depuis fin 2023 mes services en freelance. Mes diverses expériences au
-      contact de la clientèle et dans le dévelopement web me permette de vous
-      proposer une expertise complète et un accompagnement sur mesure.
-    </p> -->
   </section>
 </template>
 
