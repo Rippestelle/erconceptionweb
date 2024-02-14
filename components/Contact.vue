@@ -12,9 +12,11 @@
           Vous avez besoin de plus d'informations ou souhaitez obtenir un devis?
         </p>
         <p>
-          Contactez moi par
-          <a href="mailto:estelle.rippe.pro@gmail.com" class="link">mail</a> ou
-          téléphone par au 06 76 26 63 24
+          Contactez moi par mail à l'adresse
+          <a href="mailto:estelle.rippe.pro@gmail.com" class="link"
+            >estelle.rippe.pro@gmail.com</a
+          >
+          <br />ou par téléphone au 06 76 26 63 24.
         </p>
         <p>Ou via le formulaire de contact suivant :</p>
         <div class="parallax-contact">

@@ -32,10 +32,9 @@ onMounted(() => {
         <div class="projects__card__bottom">
           <p>
             Mau-Fit Coaching est une micro-entreprise de coaching à domicile. La
-            cliente m'a contacté fin 2023 pour une création de site WordPress et
-            une formation au back-office afin de pouvoir gérer son contenu.
-            Travail sur le référencement local et la mise en valeurs des
-            programmes.
+            cliente m'a contacté pour une création de site WordPress et une
+            formation au back-office afin de pouvoir gérer son contenu. Travail
+            sur le référencement local et la mise en valeurs des programmes.
           </p>
         </div>
         <img
@@ -59,10 +58,10 @@ onMounted(() => {
         </div>
         <div class="projects__card__bottom">
           <p>
-            Refonte du site vitrine d'une Cordonnerie - Serrurerie effectuée
-            début 2022. Premier projet en freelance avant expériences en
-            entreprise. L'objectif était d'améliorer le positionnement dans les
-            moteurs de recherche et d'améliorer le contenu.
+            Refonte avec WordPress du site vitrine de la cordonnerie -
+            serrurerie Quick services. Premier projet en freelance avant
+            d'autres expériences en entreprise. L'objectif était d'améliorer le
+            référencement (SEO) et d'optimiser le contenu.
           </p>
         </div>
         <img src="../public/assets/icons/35.svg" class="border bottom" />

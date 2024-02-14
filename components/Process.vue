@@ -9,9 +9,9 @@
       <li class="process__item">
         <span class="left green">1. <span class="text">Echange</span></span>
         <p>
-          Nous échangeons dans un premier temps sur votre besoin et vos
-          échéances. Je vous fournis un devis après étude de votre projet et
-          nous discutons les prochaines étapes.
+          Définition de votre projet. Nous échangeons dans un premier temps sur
+          votre besoin et vos échéances. Je vous fournis un devis après étude de
+          votre projet et nous discutons les prochaines étapes.
         </p>
       </li>
       <li class="process__item-right">
