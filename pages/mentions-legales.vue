@@ -4,7 +4,6 @@
     <section class="container" role="region">
       <h2>Présentation du site</h2>
       <ul>
-        <li>Propriétaire: Estelle RIPPE</li>
         <li>Créateur: Estelle RIPPE</li>
         <li>
           Hébergeur:
@@ -12,6 +11,13 @@
             >https://www.netlify.com/</NuxtLink
           >
         </li>
+      </ul>
+
+      <h2>Informations sur l'entreprise</h2>
+      <ul>
+        <li>Propriétaire: Estelle RIPPE</li>
+        <li>N°SIRET : 90366959600020</li>
+        <li>Coordonnées: estelle.rippe.pro@gmail.com - 06 76 26 63 24</li>
       </ul>
 
       <h2>Description des services fournis</h2>
