@@ -12,7 +12,7 @@
     <ul class="services">
       <li class="services__item" id="mouseffect">
         <div class="tilt">
-          <h3>Création de site internet</h3>
+          <h3>Création et refonte de site internet</h3>
           <p>
             Site WordPress clé en main et facile d'accès.<br />
             Conception de thèmes et plugins sur mesure ou personnalisation de

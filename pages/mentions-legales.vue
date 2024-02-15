@@ -16,7 +16,7 @@
       <h2>Informations sur l'entreprise</h2>
       <ul>
         <li>Propriétaire: Estelle RIPPE</li>
-        <li>N°SIRET : 90366959600020</li>
+        <li>N° SIRET : 90366959600020</li>
         <li>Coordonnées: estelle.rippe.pro@gmail.com - 06 76 26 63 24</li>
       </ul>
 
