@@ -1,29 +1,3 @@
-<template>
-  <div class="inner">
-    <div class="theme-btn" id="theme-btn">
-      <input
-        @change="toggleTheme"
-        id="checkbox"
-        type="checkbox"
-        class="switch-checkbox"
-      />
-      <label for="checkbox" class="switch-label">
-        <span title="Thème Sombre" class="dark-icon"
-          ><img src="../../public/assets/icons/icons8-moon-50.png"
-        /></span>
-
-        <span title="Thème Clair" class="light-icon"
-          ><img src="../../public/assets/icons/icons8-sun-30.png"
-        /></span>
-        <div
-          class="switch-toggle"
-          :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"
-        ></div>
-      </label>
-    </div>
-  </div>
-</template>
-
 <script>
 export default {
   mounted() {
@@ -67,7 +41,32 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<template>
+  <div class="inner">
+    <div class="theme-btn" id="theme-btn">
+      <input
+        @change="toggleTheme"
+        id="checkbox"
+        type="checkbox"
+        class="switch-checkbox"
+      />
+      <label for="checkbox" class="switch-label">
+        <span title="Thème Sombre" class="dark-icon"
+          ><img src="../../public/assets/icons/icons8-moon-50.png"
+        /></span>
+
+        <span title="Thème Clair" class="light-icon"
+          ><img src="../../public/assets/icons/icons8-sun-30.png"
+        /></span>
+        <div
+          class="switch-toggle"
+          :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"
+        ></div>
+      </label>
+    </div>
+  </div>
+</template>
+
 <style scoped>
 .theme-btn {
   padding-inline-start: 1em;

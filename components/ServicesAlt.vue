@@ -9,10 +9,14 @@
       besoin.
     </p>
 
-    <ul class="services">
-      <li class="services__item" id="mouseffect">
+    <div class="services">
+      <NuxtLink
+        to="/developpement-sur-mesure"
+        class="services__item"
+        id="mouseffect"
+      >
         <div class="tilt">
-          <h3>Création de site internet</h3>
+          <h3>Création ou refonte de site internet</h3>
           <p>
             Site WordPress clé en main et facile d'accès.<br />
             Conception de thèmes et plugins sur mesure ou personnalisation de
@@ -20,8 +24,8 @@
             Site sur mesure en JavaScript (Nuxt.js) ou PHP.
           </p>
         </div>
-      </li>
-      <li class="services__item">
+      </NuxtLink>
+      <NuxtLink to="/seo-webmastering" class="services__item">
         <div class="tilt">
           <h3>Conseils en référencement naturel - SEO</h3>
           <p>
@@ -30,8 +34,8 @@
             pertinents pour un référencement optimal.
           </p>
         </div>
-      </li>
-      <li class="services__item">
+      </NuxtLink>
+      <NuxtLink to="/formation-wordpress" class="services__item">
         <div class="tilt">
           <h3>Formation WordPress</h3>
           <p>
@@ -41,8 +45,8 @@
             votre site vous même.
           </p>
         </div>
-      </li>
-      <li class="services__item">
+      </NuxtLink>
+      <NuxtLink to="/suivi-maintenance" class="services__item">
         <div class="tilt">
           <h3>Suivi &amp; Maintenance</h3>
           <p>
@@ -52,8 +56,8 @@
             Analyse de sécurité et tests.
           </p>
         </div>
-      </li>
-      <li class="services__item">
+      </NuxtLink>
+      <NuxtLink to="/seo-webmastering" class="services__item">
         <div class="tilt">
           <h3>Webmastering</h3>
           <p>
@@ -63,8 +67,8 @@
             gagner plus de traffic.
           </p>
         </div>
-      </li>
-      <li class="services__item">
+      </NuxtLink>
+      <NuxtLink to="/developpement-sur-mesure" class="services__item">
         <div class="tilt">
           <h3>Site e-commerce</h3>
           <p>
@@ -73,8 +77,8 @@
             Paiements sécurisés et vente à l'international.
           </p>
         </div>
-      </li>
-    </ul>
+      </NuxtLink>
+    </div>
   </section>
 </template>
 
@@ -125,6 +129,11 @@ onMounted(() => {
       height: 100%;
       border-radius: 16px;
       width: 100%;
+      font-weight: 400;
+
+      &:hover > p {
+        color: var(--text-primary-color) !important;
+      }
 
       .tilt {
         padding: 2em;

@@ -1,6 +1,6 @@
 <template>
   <div class="bg">
-    <NuxtLink to="/" class="back-home-btn"><span>Accueil</span></NuxtLink>
+    <a to="/" class="back-home-btn"><span>Accueil</span></a>
   </div>
 </template>
 

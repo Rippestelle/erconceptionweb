@@ -9,17 +9,6 @@
       métiers, avec une conception et un accompagnement sur mesure afin de
       m'adapter à votre vision et vos objectifs.
     </p>
-    <!--       <p>
-        Spécialisée en WordPress, j'intègre des sites web en créant des thèmes maison ou
-        via un constructeur de thème comme Elementor afin de donner un maximum
-        d'autonomie à mes clients.
-      </p>
-      <p></p>
-      <p>
-        WordPress, Elementor, Custom, Formation (autonomie client, accompagnement). Projet
-        en JS. Conseils SEO et stratégie digitale. Autres prestatires possibles pour
-        autres solutions
-      </p>  -->
 
     <ul class="services">
       <li class="services__item">
