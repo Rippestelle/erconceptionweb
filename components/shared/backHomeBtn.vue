@@ -1,10 +1,10 @@
+<script setup lang="ts"></script>
+
 <template>
   <div class="bg">
     <NuxtLink to="/" class="back-home-btn"><span>Accueil</span></NuxtLink>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 $baseColour: #fff;

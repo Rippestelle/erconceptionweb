@@ -1,3 +1,18 @@
+<script setup lang="ts">
+import HeaderAlt from "../components/shared/HeaderAlt.vue";
+import backHomeBtn from "~/components/shared/backHomeBtn.vue";
+
+useSeoMeta({
+  title: "Mentions légales",
+  ogTitle: "Mentions légales",
+  description:
+    "Mentions légales du site er-conception-web.fr, création de sites web sur mesure.",
+  ogDescription:
+    "Mentions légales du site er-conception-web.fr, création de sites web sur mesure.",
+  ogUrl: "/mentions-legales",
+});
+</script>
+
 <template>
   <div>
     <HeaderAlt title="Mentions légales" />
@@ -56,21 +71,6 @@
     <div class="spacer"></div>
   </div>
 </template>
-
-<script setup lang="ts">
-import HeaderAlt from "../components/shared/HeaderAlt.vue";
-import backHomeBtn from "~/components/shared/backHomeBtn.vue";
-
-useSeoMeta({
-  title: "Mentions légales",
-  ogTitle: "Mentions légales",
-  description:
-    "Mentions légales du site er-conception-web.fr, création de sites web sur mesure.",
-  ogDescription:
-    "Mentions légales du site er-conception-web.fr, création de sites web sur mesure.",
-  ogUrl: "/mentions-legales",
-});
-</script>
 
 <style lang="scss" scoped>
 .container {

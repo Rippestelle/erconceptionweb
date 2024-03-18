@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <form
     name="Website Contact Form"
@@ -59,8 +61,6 @@
     </button>
   </form>
 </template>
-
-<script lang="ts"></script>
 
 <style lang="scss" scoped>
 form {

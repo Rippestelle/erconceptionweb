@@ -1,3 +1,11 @@
+<script setup lang="js">
+onMounted(() => {
+  moveElements({
+    container: '#parallax-about ',
+  });
+});
+</script>
+
 <template>
   <section class="container about" id="about" role="region">
     <h2>A propos</h2>
@@ -29,14 +37,6 @@
     </div>
   </section>
 </template>
-
-<script setup lang="js">
-onMounted(() => {
-  moveElements({
-    container: '#parallax-about ',
-  });
-});
-</script>
 
 <style lang="scss" scoped>
 .about {

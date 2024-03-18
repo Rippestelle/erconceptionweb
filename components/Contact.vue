@@ -1,3 +1,13 @@
+<script setup lang="js">
+import ContactForm from "../components/shared/ContactForm.vue";
+
+onMounted(() => {
+  moveElements({
+    container: '#parallax-contact ',
+  });
+});
+</script>
+
 <template>
   <section class="container" id="contact">
     <h2>Me contacter</h2>
@@ -40,16 +50,6 @@
     </div>
   </section>
 </template>
-
-<script setup lang="js">
-import ContactForm from "../components/shared/ContactForm.vue";
-
-onMounted(() => {
-  moveElements({
-    container: '#parallax-contact ',
-  });
-});
-</script>
 
 <style lang="scss" scoped>
 section {

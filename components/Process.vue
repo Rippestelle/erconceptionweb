@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <section class="container" id="process" role="region">
     <h2>Méthode</h2>
@@ -69,8 +71,6 @@
     </ul>
   </section>
 </template>
-
-<script lang="ts"></script>
 
 <style lang="scss" scoped>
 #process {

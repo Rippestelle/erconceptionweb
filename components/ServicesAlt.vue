@@ -1,3 +1,12 @@
+<script setup lang="js">
+onMounted(() => {
+
+  tiltElement({
+    card :".services__item",
+  });
+});
+</script>
+
 <template>
   <section class="container" id="services" role="region">
     <h2>Mes services</h2>
@@ -11,7 +20,7 @@
 
     <ul class="services">
       <li class="services__item" id="mouseffect">
-        <div class="tilt">
+        <NuxtLink to="/services/creation-refonte-site" class="tilt">
           <h3>Création et refonte de site internet</h3>
           <p>
             Site WordPress clé en main et facile d'accès.<br />
@@ -19,20 +28,20 @@
             thème existant.<br />
             Site sur mesure en JavaScript (Nuxt.js) ou PHP.
           </p>
-        </div>
+        </NuxtLink>
       </li>
       <li class="services__item">
-        <div class="tilt">
+        <NuxtLink to="/services/seo-webmastering" class="tilt">
           <h3>Conseils en référencement naturel - SEO</h3>
           <p>
             Référencement naturel optimisé et conseils en stratégie de
             référencement. Des pages bien construites, avec des mots clés
             pertinents pour un référencement optimal.
           </p>
-        </div>
+        </NuxtLink>
       </li>
       <li class="services__item">
-        <div class="tilt">
+        <NuxtLink to="/services/formation-wordpress" class="tilt">
           <h3>Formation WordPress</h3>
           <p>
             En fonction de votre besoin, je propose plusieurs modules de
@@ -40,10 +49,10 @@
             Formation complète WordPress et Elementor afin d'apprendre à créer
             votre site vous même.
           </p>
-        </div>
+        </NuxtLink>
       </li>
       <li class="services__item">
-        <div class="tilt">
+        <NuxtLink to="/services/suivi-et-maintenance" class="tilt">
           <h3>Suivi &amp; Maintenance</h3>
           <p>
             Suivi, mises à jour et sauvegardes régulières de votre site. Même
@@ -51,10 +60,10 @@
             fonctionnement de votre site.<br />
             Analyse de sécurité et tests.
           </p>
-        </div>
+        </NuxtLink>
       </li>
       <li class="services__item">
-        <div class="tilt">
+        <NuxtLink to="/services/seo-webmastering" class="tilt">
           <h3>Webmastering</h3>
           <p>
             Gestion et entretien d'un site, actualisation du contenu graphique
@@ -62,30 +71,21 @@
             statistiques. Je vous aide à obtenir une meilleure visibilité et à
             gagner plus de traffic.
           </p>
-        </div>
+        </NuxtLink>
       </li>
       <li class="services__item">
-        <div class="tilt">
+        <NuxtLink to="/services/creation-refonte-site" class="tilt">
           <h3>Site e-commerce</h3>
           <p>
             Création de boutiques en ligne avec Woo, pour artisans, commerçants
             et indépendants. Gestion des produits, des commandes et des stocks.
             Paiements sécurisés et vente à l'international.
           </p>
-        </div>
+        </NuxtLink>
       </li>
     </ul>
   </section>
 </template>
-
-<script setup lang="js">
-onMounted(() => {
-
-  tiltElement({
-    card :".services__item",
-  });
-});
-</script>
 
 <style lang="scss" scoped>
 #services {
@@ -140,6 +140,8 @@ onMounted(() => {
         p {
           text-align: left;
           margin-bottom: 0;
+          color: var(--text-primary-color);
+          font-weight: 400;
         }
 
         h3 {
@@ -153,6 +155,10 @@ onMounted(() => {
           -webkit-text-fill-color: transparent;
           font-weight: 900;
         }
+      }
+
+      .tilt:hover {
+        -webkit-text-fill-color: initial;
       }
     }
   }

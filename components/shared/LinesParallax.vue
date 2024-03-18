@@ -1,3 +1,11 @@
+<script setup lang="js">
+onMounted(() => {
+  moveElements({
+    container: "#parallax-lines ",
+  });
+});
+</script>
+
 <template>
   <div>
     <div class="parallax-lines" id="parallax-lines">
@@ -7,14 +15,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="js">
-onMounted(() => {
-  moveElements({
-    container: "#parallax-lines ",
-  });
-});
-</script>
 
 <style scoped lang="scss">
 .parallax-lines {
