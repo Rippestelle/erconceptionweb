@@ -14,7 +14,9 @@ import LinesParallax from "./LinesParallax.vue";
 </template>
 
 <style scoped lang="scss">
-p {
-  font-size: 22px;
+.container {
+  p {
+    font-size: 22px;
+  }
 }
 </style>

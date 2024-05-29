@@ -57,7 +57,7 @@
       </li>
       <li class="process__item-right">
         <span class="right purple"
-          >6. <span class="text">Suivi &amp; Maintenance</span></span
+          >6. <span class="text bounce">Suivi &amp; Maintenance</span></span
         >
         <p>
           Bénéficiez d'un suivi personnalisé en fonction de vos besoins et de

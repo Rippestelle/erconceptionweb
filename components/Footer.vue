@@ -39,18 +39,18 @@
  -->
           <ul class="links">
             <li class="links__item">
-              <NuxtLink to="#services" class="nav-link"> Services</NuxtLink>
+              <NuxtLink to="/#services" class="nav-link"> Services</NuxtLink>
             </li>
             <li class="links__item">
-              <NuxtLink to="#contact" class="nav-link"> Contact</NuxtLink>
-            </li>
-
-            <li class="links__item">
-              <NuxtLink to="#projects" class="nav-link">Projets</NuxtLink>
+              <NuxtLink to="/#contact" class="nav-link"> Contact</NuxtLink>
             </li>
 
             <li class="links__item">
-              <NuxtLink to="#about" class="nav-link">A propos</NuxtLink>
+              <NuxtLink to="/#projects" class="nav-link">Projets</NuxtLink>
+            </li>
+
+            <li class="links__item">
+              <NuxtLink to="/#about" class="nav-link">A propos</NuxtLink>
             </li>
           </ul>
         </div>

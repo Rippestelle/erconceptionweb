@@ -14,7 +14,7 @@ onMounted(() => {
         <h3>Bonjour, je suis Estelle, développeuse Web.</h3>
         <p>
           Je vous accompagne dans votre stratégie digitale et la création de
-          votre site.
+          votre site internet.
         </p>
         <p>
           Titulaire d'un diplôme en Conception d'applications et de sites web
@@ -24,9 +24,14 @@ onMounted(() => {
           en PHP, et en référencement naturel (SEO).
         </p>
         <p>
-          Egalement issue de formation supérieure littéraire, je mets à profit
-          mes compétences acquises dans la rédaction et l'optimisation de votre
-          contenu afin d'obtenir un bon référencement.
+          Je vous aide à optimiser votre contenu pour qu'il soit clair,
+          accessible et pertinent, et à utiliser les bons mots clés afin
+          d'obtenir un bon référencement.
+        </p>
+        <p>
+          Compétences: HTML5, CSS, Sass, JavaScript, PHP, WordPress, SEO,
+          Rédaction, Webmastering, Responsive Design, Refonte, Recherche de
+          contenu, Suivi de projet.
         </p>
       </div>
       <div class="parallax-about" id="parallax-about">

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import wip from "~/components/shared/wip.vue";
+import HeaderAlt from "../components/shared/HeaderAlt.vue";
+import Wip from "~/components/shared/Wip.vue";
 
 useSeoMeta({
   title: "Référencement naturel et webmastering",
@@ -14,9 +15,10 @@ useSeoMeta({
 
 <template>
   <section class="container">
-    <h1>Référencement naturel &amp; webmastering</h1>
-    <wip />
+    <HeaderAlt title="Référencement naturel &amp; webmastering" />
+    <Wip />
   </section>
 </template>
 
 <style lang="scss" scoped></style>
+~/components/shared/Wip.vue

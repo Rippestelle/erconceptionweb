@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import wip from "~/components/shared/wip.vue";
+import wip from "~/components/shared/Wip.vue";
 
 useSeoMeta({
   title: "Formation WordPress & Elementor",
@@ -20,3 +20,4 @@ useSeoMeta({
 </template>
 
 <style lang="scss" scoped></style>
+~/components/shared/Wip.vue

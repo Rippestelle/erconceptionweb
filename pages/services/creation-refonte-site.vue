@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import wip from "~/components/shared/wip.vue";
+import Wip from "~/components/shared/Wip.vue";
+import HeaderAlt from "../components/shared/HeaderAlt.vue";
 
 useSeoMeta({
   title: "Création et refonte de sites internet",
@@ -14,13 +15,15 @@ useSeoMeta({
 
 <template>
   <section class="container">
-    <h1>Création et refonte de sites internet</h1>
-    <wip />
+    <HeaderAlt title="Création et refonte de sites internet" />
+    <Wip />
+    <h2>Refonte de site internet</h2>
+    <h2>Site vitrine</h2>
+    <h2>Landing-page</h2>
+    <h2>Site e-commerce</h2>
+    <h2>Site institutionnel</h2>
   </section>
 </template>
 
-<style lang="scss" scoped>
-.container {
-  height: 500px;
-}
-</style>
+<style lang="scss" scoped></style>
+~/components/shared/Wip.vue

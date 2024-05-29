@@ -66,14 +66,7 @@ onMounted(() => {
 
   h1 {
     font-family: "Manrope", sans-serif;
-    background: linear-gradient(
-      0.25turn,
-      rgb(88, 44, 145),
-      rgb(46, 128, 200) 50%,
-      #22d49e
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-primary-color);
     font-weight: 900;
     font-size: 30px;
   }
