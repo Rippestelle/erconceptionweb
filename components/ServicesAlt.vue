@@ -1,3 +1,12 @@
+<script setup lang="js">
+onMounted(() => {
+
+  tiltElement({
+    card :".services__item",
+  });
+});
+</script>
+
 <template>
   <section class="container" id="services" role="region">
     <h2>Mes services</h2>
@@ -77,15 +86,6 @@
     </ul>
   </section>
 </template>
-
-<script setup lang="js">
-onMounted(() => {
-
-  tiltElement({
-    card :".services__item",
-  });
-});
-</script>
 
 <style lang="scss" scoped>
 #services {

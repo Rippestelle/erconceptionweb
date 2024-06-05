@@ -52,6 +52,10 @@
             <li class="links__item">
               <NuxtLink to="#about" class="nav-link">A propos</NuxtLink>
             </li>
+
+            <li class="links__item">
+              <NuxtLink to="#tarifs" class="nav-link">Tarifs</NuxtLink>
+            </li>
           </ul>
         </div>
       </div>

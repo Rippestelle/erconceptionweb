@@ -77,6 +77,14 @@ onMounted(() => {
             >
               Projets
             </NuxtLink>
+
+            <NuxtLink
+              class="nav__link nav-link"
+              to="/#tarifs"
+              @click="() => onNavigation()"
+            >
+              Tarifs
+            </NuxtLink>
           </nav>
 
           <div class="flex">

@@ -53,7 +53,12 @@ export default defineNuxtConfig({
     "nuxt-simple-sitemap",
     "nuxt-gtag",
     "@dargmuesli/nuxt-cookie-control",
+    "nuxt-swiper",
   ],
+  swiper: {
+    modules: ["navigation", "pagination", "autoplay"],
+    styleLang: "scss",
+  },
   gtag: {
     id: "G-VKWDTQEY37",
     initialConsent: false,
