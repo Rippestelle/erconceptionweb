@@ -69,6 +69,7 @@ onMounted(() => {
     color: var(--text-primary-color);
     font-weight: 900;
     font-size: 30px;
+    text-align: center;
   }
   .row {
     justify-content: space-between;

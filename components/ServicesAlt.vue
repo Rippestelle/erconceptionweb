@@ -69,7 +69,7 @@ onMounted(() => {
             Gestion et entretien d'un site, actualisation du contenu graphique
             et/ou textuel, newsletter. Intégration d'articles et suivi des
             statistiques. Je vous aide à obtenir une meilleure visibilité et à
-            gagner plus de traffic.
+            gagner plus de trafic.
           </p>
         </NuxtLink>
       </li>
