@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import wip from "~/components/shared/Wip.vue";
-
 useSeoMeta({
   title: "Suivi et maintenance d'un site internet",
   ogTitle: "Suivi et maintenance d'un site internet",
@@ -15,9 +13,7 @@ useSeoMeta({
 <template>
   <section class="container">
     <h1>Suivi &amp; maintenance d'un site internet</h1>
-    <wip />
   </section>
 </template>
 
 <style lang="scss" scoped></style>
-~/components/shared/Wip.vue

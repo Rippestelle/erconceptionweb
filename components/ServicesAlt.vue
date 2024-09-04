@@ -74,7 +74,7 @@ onMounted(() => {
         </NuxtLink>
       </li>
       <li class="services__item">
-        <NuxtLink to="/services/creation-refonte-site" class="tilt">
+        <NuxtLink to="/services/creation-refonte-site#e-commerce" class="tilt">
           <h3>Site e-commerce</h3>
           <p>
             Création de boutiques en ligne avec Woo, pour artisans, commerçants
