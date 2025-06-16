@@ -66,6 +66,30 @@ onMounted(() => {
         </div>
         <img src="../public/assets/icons/35.svg" class="border bottom" />
       </a>
+      <a
+        href="https://essma.iplesp.fr/"
+        class="projects__card"
+        target="_blank"
+        title="Aller sur le site https://essma.iplesp.fr/"
+      >
+        <img src="../public/assets/icons/34.svg" class="border top" />
+        <div class="projects__card__top">
+          <img
+            src="../public/assets/img/essma.png"
+            alt="couverture du site essma"
+          />
+        </div>
+        <div class="projects__card__bottom">
+          <p>
+            Refonte avec WordPress du site de l'équipe de recherche ESSMA de
+            l'IPLesp. Nouveau design, nouveau logo, refonte de l'arborescence,
+            mises à jour et optimisation du contenu. L'équipe souhaitait changer
+            le design et avoir un outil plus simple pour la gestion de leur
+            contenu.
+          </p>
+        </div>
+        <img src="../public/assets/icons/35.svg" class="border bottom" />
+      </a>
     </div>
   </section>
 </template>
